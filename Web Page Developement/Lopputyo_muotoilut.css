@@ -1,0 +1,287 @@
+/*Yleisiä asetuksia muotilulle*/
+html
+{
+	font-size: 16px;
+}
+
+
+body
+{
+	background:url('Lopputyokuvat/Tausta.JPG') repeat;
+	/*Tausta by KIHStock*/
+	position:static;
+	width:95%;
+    max-width:800px;
+    margin:auto;
+	font:93.75%/1.5 veranda;
+}
+
+a
+{
+	color:#ffffff;
+	font-size:1.2em; 
+}
+/*em:it tekevät tekstistäkin responsiivisen*/
+
+h4, h3, h2
+{
+	text-align:center;
+}
+
+hr
+{
+	color:#ffffff;
+}
+
+/*font luetaan niin että ensin on fonttikoko, sitten riviväli ja lopulta fontti*/
+
+/*Headerin ja Navin ulkoasut*/
+header
+{
+	background-color:#008B8B;
+	padding:0.652%;
+	font-size:1.33em;
+	text-align:center;
+	border:2px solid black;
+	border-radius:10px;
+}
+
+header h1
+{
+	color:#333;
+	text-align:center;
+	clear:right;
+}
+
+nav ul li
+{
+	list-style-type:none;
+	display:inline;
+	margin:1%, 1.875%;
+	padding: 1%;
+}
+/*display: inline vie navi-elementit vierekkäin allekkainlistauksen sijaan*/
+
+/*Main osuuksien ja aside osuuksien muotoilut*/
+main
+{
+	background-color:#008B8B;
+	border:2px solid black;
+	border-radius:10px;
+	font-size:1.13em;
+	margin-top:12px;
+	padding:1.25%;
+}
+
+/*Tekijän tietojen muotilut*/
+
+/*Taulukko*/
+#Tekijan_tiedot
+{
+	border:2px solid black;
+	border-radius:10px;
+	margin-left:15%;
+	float:left;
+}
+
+/*Tekstiosuusartikkeli*/
+#Sivutiedot
+{
+	padding-top:10px;
+	clear:both;
+}
+
+/*Patun artikkelit*/
+#Patu1
+{
+	clear:left;
+}
+
+#Patu2
+{
+	clear:right;
+}
+/*Ladyn artikkelit*/
+#Lady1
+{
+	clear:left;
+}
+
+#Lady2
+{
+	clear:right;
+}
+
+.Infobox1
+{
+	float:left;
+	width:20%;
+	margin-right:2%;
+	border:2px solid black;
+	border-radius:10px;
+	padding:1.25%;
+	background-color:#ffffff;
+	color:#008B8B
+}
+
+.Infobox2
+{
+	float:right;
+	width:20%;
+	margin-left:2%;
+	border:2px solid black;
+	border-radius:10px;
+	padding:1.25%;
+	background-color:#ffffff;
+	color:#008B8B
+}
+
+/*Sähköpostin jättölomakkeen muotoilut*/
+form
+{
+	margin-bottom:10px;
+}
+
+button
+{
+	border-radius:5px;
+	background-color:#ffffff;
+	font:1.07em/1 veranda;
+}
+
+/*Kuvien ja videoiden muotoilut*/
+
+#Tervetuloa
+{
+	width:43.75%;
+	height:auto;
+	border-radius:10px;
+	float:right;
+	margin-left:1.25%;
+}
+
+#Etusivu
+{
+	width:37.5%;
+	height:auto;
+	border-radius:10px;
+	float:left;
+	margin-right:1.25%;
+}
+
+.Galleria
+{
+	margin:0 auto;
+	text-align:center;
+}
+
+.Kisut
+{
+	width:37.5%;
+	height:auto;
+	border-radius:10px;
+}
+
+#Chill
+{
+	width:43.75%;
+	height:auto;
+	border-radius:10px;
+	float:right;
+	margin-left:1.25%;
+	margin-bottom:10px;
+}
+
+#Pitkula
+{
+	width:43.75%;
+	height:auto;
+	border-radius:10px;
+	float:left;
+	margin-right:1.25%;
+}
+
+#Valjaissa
+{
+	width:37.5%;
+	height:auto;
+	border-radius:10px;
+	float:right;
+	margin-right:1.25%;
+}
+
+#Sohvalla
+{
+	width:43.75%;
+	height:auto;
+	border-radius:10px;
+	float:left;
+	margin-right:1.25%;
+	margin-bottom:10px;
+}
+
+#Tekija
+{
+	width:30%;
+	height:auto;
+	border-radius:10px;
+	float:right;
+	margin-right:15%;
+}
+
+.Kissavideot
+{
+	width:71.25%;
+	height:auto;
+	display:block;
+	margin:0 auto;
+}
+
+/*Footerin ominaisuudet*/
+.alalinkki
+{
+	padding:0.652%,0%;
+}
+
+footer
+{
+	background-color:#008B8B;
+	padding:1.25%;
+	border:2px solid black;
+	border-radius:10px;
+	margin-top:10px;
+}
+
+/*Media Querie*/
+@media(max-width:800px)
+{
+	#Lady1,
+	#Lady2,
+	#Patu1,
+	#Patu2
+	{
+		width: 90%;
+		text-align: center;
+	}
+	.Infobox1, 
+	.Infobox2,
+	#Tekijan_tiedot
+	{
+		float: none;
+		width: 90%;
+		text-align: center;
+		margin: 5px;
+	}
+	#Etusivu,
+	#Tervetuloa,
+	#Chill,
+	#Pitkula,
+	#Valjaissa,
+	#Sohvalla,
+	#Tekija
+	{
+		float:none;
+		width:90%;
+		margin: 5px;
+	}
+}
