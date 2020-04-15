@@ -1,0 +1,47 @@
+PO:
+Esivalmistelu:
+- Epicien ja UserStrorien kirjoittamisen päävastuu -> ZenHubin rakenteen hahmottelu projektia varten
+- Projektisuunnitelman ja Esitutkimuksen visio-osuudet
+- Sovelluksen sisällön ja ulkoasukuvauksen kouluttaminen tiimille
+
+1. Sprintti:
+- Vastuu siitä että Gittiä ja ZenHubia käytetän oikein ja tehokkaasti -> helpompi pitää silmällä mitä on saatu aikaan
+- Ohjeistus seuraavaan sprinttiin
+- Liiketoimintasuunnitelman tekoon osallistuminen ja esitysmateriaalin teko
+- Asetukset sivun frontti-koodaus
+
+2. Sprintti:
+- Liiketoimintasuunnitelman esittely Annikan kanssa
+- US:en kirjoittamisessa kehittyminen -> Apua Jukalta ja Teemulta
+- Visual guide
+- Tietokantasuunnitelmapiirros Henrin kanssa
+- Sovelluksen sisäänkirjautumispohja
+- Perehtyminen Microsoft & Google kirjautumisiin
+
+3. Sprintti:
+- Demo-esityksen valmistaminen ja esittäminen Rasmuksen kanssa
+- Visual guiden päivittäminen & värimaailmapalautteen kerääminen tiimin ulkopuolisilta henkilöiltä
+- Uusi priorisointitapa opittu ZenHubia varten, joten sen kanssa PO-touhuja
+- Perehdytty NodeJS:ään ja Expressiin
+- Koodattu sivurunko Henkipöllön pesälle
+- Bugikorjauskäytänteen kehittäminen ZenHubiin
+- Videotallenteet menneistä sprinteistä
+
+4. Sprintti (koronahämmennys):
+- Henkipöllön puhekupla sisäänkirjautuessa
+- Mock up kurssitiedot ja kursseille tehtävät
+- Bugikorjailua asetussivuille
+- Blogitekstin kirjoittaminen
+
+5. Sprintti:
+- Opon kanssa keskustelu opiskelijan ohjaustarpeesta 
+- Asetuksien checkboxien vaikutus kirjautumispuhekuplien ilmestymiseen
+- Demo-esitysmateriaalin kasaaminen ja esittäminen Annikan kanssa
+- Henkipöllön pesäsivun päivittäminen opon toiveiden/vinkkien mukaan
+- Bugipalaveri testaajien kanssa bugien priorisoinnista ja määristä
+
+6. Sprintti: 
+- Sovelluksen palvelimelle siirron esitutkimustyöt
+- Henkipöllön kommentoinnit tehtävää suorittaessa yhdessä Henrin kanssa
+- Pull Requestit
+- Tutustuminen sähköisiin allekirjoitustapoihin
